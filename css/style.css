@@ -1,0 +1,76 @@
+body,
+#social,
+.clickme {
+  transition: background 1s linear;
+  -webkit-transition: background 1s linear;
+  -moz-transition: background 1s linear;
+}
+
+.author,
+.quote {
+  transition: color 1s linear;
+  -webkit-transition: color 1s linear;
+  -moz-transition: color 1s linear;
+}
+
+.container {
+  transition: border-color 1s linear;
+  -webkit-transition: border-color 1s linear;
+  -moz-transition: border-color 1s linear;
+}
+
+.container {
+  border: 1px solid black;
+  background-color: white;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 4px;
+}
+
+.clickme {
+  font-family: 'Helvetica';
+  margin-bottom: 24px;
+  margin-left: 430px;
+  padding: 10px 7px 10px 10px;
+  font-size: 16px;
+  width: 78px;
+  border-radius: 3px;
+}
+
+.clickme:hover,
+#social:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.quote {
+  min-height: 100px;
+  margin-left: 25px;
+  margin-top: 35px;
+  width: 500px;
+}
+
+.quote h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.75em;
+}
+
+.author {
+  margin-top: 24px;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+  width: 500px;
+  height: 36px;
+  margin-right: 20px;
+}
+
+#social {
+  padding: 7px 7px 7px 10px;
+  float: left;
+  font-size: 24px;
+  margin-left: 25px;
+  border-radius: 3px;
+}
